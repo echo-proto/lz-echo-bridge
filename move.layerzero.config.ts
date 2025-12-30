@@ -1,10 +1,10 @@
-import { hexAddrToAptosBytesAddr } from '@layerzerolabs/devtools-move'
+// import { hexAddrToAptosBytesAddr } from '@layerzerolabs/devtools-move'
 import { EndpointId } from '@layerzerolabs/lz-definitions'
 import { ExecutorOptionType } from '@layerzerolabs/lz-v2-utilities'
 
 import type { OAppOmniGraphHardhat, OmniPointHardhat } from '@layerzerolabs/toolbox-hardhat'
 
-console.log(hexAddrToAptosBytesAddr('0x8dac4489ebed5b6bb43c88a7fd36dc5caa89c64e7e7a2581ae5f9aec2738bc13'))
+// console.log(hexAddrToAptosBytesAddr('0x8dac4489ebed5b6bb43c88a7fd36dc5caa89c64e7e7a2581ae5f9aec2738bc13'))
 
 enum MsgType {
     SEND = 1,
